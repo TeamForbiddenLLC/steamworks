@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 
 [HKEY_CLASSES_ROOT\.wfdz20]
-@="Warfork 2.12"
+@="Warfork 2.12 Demo"
 
 [HKEY_CLASSES_ROOT\warfork]
 @="URL:warfork protocol"
@@ -18,15 +18,15 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\warfork\Shell\Open\Command]
 @="\"c:\\Program Files (x86)\\steam\\steamapps\\common\\fvi\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"c:/Program Files (x86)/steam/steamapps/common/fvi/fvi-launcher/applications/warfork/Warfork.app/Contents/Resources\" +connect \"%1\""
 
-[HKEY_CLASSES_ROOT\Warfork 2.12]
-@="Warfork 2.12"
+[HKEY_CLASSES_ROOT\Warfork 2.12 Demo]
+@="Warfork 2.12 Demo"
 
-[HKEY_CLASSES_ROOT\Warfork 2.12\DefaultIcon]
+[HKEY_CLASSES_ROOT\Warfork 2.12 Demo\DefaultIcon]
 @="c:\\Program Files (x86)\\steam\\steamapps\\common\\fvi\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe,1"
 
-[HKEY_CLASSES_ROOT\Warfork 2.12\Shell]
+[HKEY_CLASSES_ROOT\Warfork 2.12 Demo\Shell]
 
-[HKEY_CLASSES_ROOT\Warfork 2.12\Shell\Open]
+[HKEY_CLASSES_ROOT\Warfork 2.12 Demo\Shell\Open]
 
-[HKEY_CLASSES_ROOT\Warfork 2.12\Shell\Open\Command]
+[HKEY_CLASSES_ROOT\Warfork 2.12 Demo\Shell\Open\Command]
 @="\"c:\\Program Files (x86)\\steam\\steamapps\\common\\fvi\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"c:/Program Files (x86)/steam/steamapps/common/fvi/fvi-launcher/applications/warfork/Warfork.app/Contents/Resources\" +demo \"%1\""
