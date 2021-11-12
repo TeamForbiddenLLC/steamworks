@@ -5,7 +5,4 @@ Windows Registry Editor Version 5.00
 
 [-HKEY_CLASSES_ROOT\warfork]
 
-[-HKEY_CLASSES_ROOT\Warfork 2.12]
-
-[-HKEY_CLASSES_ROOT\Warfork 2.12 Demo]
-
+[-HKEY_CLASSES_ROOT\Warfork Demo]
