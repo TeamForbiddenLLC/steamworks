@@ -1,8 +1,8 @@
 "InstallScript"
 {
-	"VC64"
+	"Run Process"
 	{
-		"Visual C++ Redist"
+		"Visual C++ Redist x64"
 		{
 			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x64.exe"
 			"Command 1"     "/q"
@@ -15,9 +15,9 @@
 		}
 	}
 
-	"VC32"
+	"Run Process"
 	{
-		"Visual C++ Redist"
+		"Visual C++ Redist x86"
 		{
 			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x86.exe"
 			"Command 1"     "/q"
