@@ -5,8 +5,7 @@
 		"Visual C++ Redist x64"
 		{
 			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x64.exe"
-			"Command 1"     "/q"
-			"Command 2"     "/norestart"            
+			"Command 1"     "/q /norestart"          
 			"NoCleanUp"     "1"
 	        "Requirement_OS"
 	        {
@@ -20,8 +19,7 @@
 		"Visual C++ Redist x86"
 		{
 			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x86.exe"
-			"Command 1"     "/q"
-			"Command 2"     "/norestart"            
+			"Command 1"     "/q /norestart"         
 			"NoCleanUp"     "1"
 		}
 	}
