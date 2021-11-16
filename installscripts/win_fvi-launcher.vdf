@@ -1,31 +1,26 @@
 "InstallScript"
 {
-	"Run Process"
-	{
-		"Visual C++ Redist x64"
-		{
-			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x64.exe"
-			"Command 1"     "/q /norestart"          
-			"NoCleanUp"     "1"
-	        "Requirement_OS"
-	        {
-		        "Is64BitWindows"  "1"
-	        }
-		}
-	}
-
-	"Run Process"
-	{
-		"Visual C++ Redist x86"
-		{
-			"Process 1"     "%INSTALLDIR%\\fvi-launcher\\vc_redist.x86.exe"
-			"Command 1"     "/q /norestart"         
-			"NoCleanUp"     "1"
-		}
-	}
-
+    "Run Process"
+    {
+        "Visual C++ Redist x64"
+        {
+            "process 1"        "%INSTALLDIR%\\fvi-launcher\\vc_redist.x64.exe"
+            "command 1"        "/q /norestart"
+            "NoCleanUp"        "1"
+            "Requirement_OS"
+            {
+                "Is64BitWindows"        "1"
+            }
+        }
+            "Visual C++ Redist x86"
+        {
+            "process 1"        "%INSTALLDIR%\\fvi-launcher\\vc_redist.x86.exe"
+            "command 1"        "/q /norestart"
+            "NoCleanUp"        "1"
+        }
+    }
     "Firewall"
     {
-	    "FVI Launcher" "%INSTALLDIR%\\fvi-launcher\\fvi-launcher.exe"
+        "FVI Launcher"        "%INSTALLDIR%\\fvi-launcher\\fvi-launcher.exe"
     }
 }
