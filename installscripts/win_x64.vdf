@@ -6,7 +6,7 @@
 		{
 			"string"
 			{
-				"(Default)"		"Warfork 2.12 Demo"
+				"(Default)"		"Warfork Demo"
 			}
 		}
 		"HKEY_CLASSES_ROOT\\warfork"
@@ -21,62 +21,36 @@
 		{
 			"string"
 			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\",1"
+				"(Default)"		"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe"
 			}
 		}
-		"HKEY_CLASSES_ROOT\\warfork\\shell\\open\\command"
+		"HKEY_CLASSES_ROOT\\warfork\\Shell\\Open\\Command"
 		{
 			"string"
 			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"%INSTALLDIR%/fvi-launcher/applications/warfork\" +connect \"%1\""
+				"(Default)"		""
 			}
 		}
 		"HKEY_CLASSES_ROOT"
 		{
 			"string"
 			{
-				"(Default)"		"Warfork 2.12 Demo"
+				"(Default)"		"Warfork Demo"
 			}
 		}
-		"HKEY_CLASSES_ROOT\\Warfork 2.12 Demo\\DefaultIcon"
+		"HKEY_CLASSES_ROOT\\Warfork Demo\\DefaultIcon"
 		{
 			"string"
 			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\",1"
+				"(Default)"		"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe"
 			}
 		}
-		"HKEY_CLASSES_ROOT\\Warfork 2.12 Demo\\shell\\open\\command"
+		"HKEY_CLASSES_ROOT\\Warfork Demo\\Shell\\Open\\Command"
 		{
 			"string"
 			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"%INSTALLDIR%/fvi-launcher/applications/warfork\" +connect \"%1\""
-			}
-		}
-		"HKEY_CLASSES_ROOT\\warfork24"
-		{
-			"string"
-			{
-				"(Default)"		"URL:warfork24 protocol"
-				"URL Protocol"		""
-			}
-		}
-		"HKEY_CLASSES_ROOT\\warfork24\\DefaultIcon"
-		{
-			"string"
-			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\",1"
-			}
-		}
-		"HKEY_CLASSES_ROOT\\warfork24\\shell\\open\\command"
-		{
-			"string"
-			{
-				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"%INSTALLDIR%/fvi-launcher/applications/warfork\" +connect \"%1\""
+				"(Default)"		""
 			}
 		}
 	}
-}
-"kvsignatures"
-{
-	"InstallScript"		"957f8442156c0945fc23392f7dbcd637714a6c3dd60e5024905f43ecf663d0af7282de4206e8797fd1c41b8be3dde5b6d882fb3a515b952c047689cd20e31e7ba5a4e62dc1e3991945ce6b151b91f0e97abfbff193e1a3c5622fbbd4f64b0fd8bf4ef831c8367868b75615b876c2b69e97fe5c55976d7c24bf981205ff3fa78c"
 }
