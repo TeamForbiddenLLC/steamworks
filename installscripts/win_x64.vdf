@@ -28,7 +28,7 @@
 		{
 			"string"
 			{
-				"(Default)"		""
+				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\" +connect \"%1\""
 			}
 		}
 		"HKEY_CLASSES_ROOT"
@@ -42,14 +42,14 @@
 		{
 			"string"
 			{
-				"(Default)"		"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe"
+				"(Default)"		"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe,1"
 			}
 		}
 		"HKEY_CLASSES_ROOT\\Warfork Demo\\Shell\\Open\\Command"
 		{
 			"string"
 			{
-				"(Default)"		""
+				"(Default)"		"\"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\\warfork_x64.exe\" +set fs_usehomedir 1 +set fs_basepath \"%INSTALLDIR%\\fvi-launcher\\applications\\warfork\\Warfork.app\\Contents\\Resources\" +demo \"%1\""
 			}
 		}
 	}
